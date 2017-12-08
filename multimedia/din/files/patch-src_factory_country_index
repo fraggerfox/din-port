@@ -1,0 +1,29 @@
+--- src/factory/country/index.orig	2017-12-08 08:30:25 UTC
++++ src/factory/country/index	
+@@ -60,7 +60,7 @@
+ French_Guiana
+ Finland
+ Fiji
+-Falkland_Islands_(Malvinas)
++Falkland_Islands__Malvinas_
+ Micronesia
+ French_Polynesia
+ France
+@@ -141,7 +141,7 @@
+ Montenegro
+ Mayotte
+ Norfolk_Island
+-Cocos_(Keeling)_Islands
++Cocos__Keeling__Islands
+ Antarctica
+ Bouvet_Island
+ French_Southern_and_Antarctic_Lands
+@@ -236,7 +236,7 @@
+ Turks_and_Caicos_Islands
+ Western_Sahara
+ Serbia
+-Holy_See_(Vatican_City)
++Holy_See__Vatican_City_
+ Svalbard
+ Saint_Martin
+ Saint_Barthelemy
