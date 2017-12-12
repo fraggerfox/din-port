@@ -1,5 +1,5 @@
---- src/factory/country/Makefile.am.orig	2017-12-07 21:12:54 UTC
-+++ src/factory/country/Makefile.am	
+--- src/factory/country/Makefile.am.orig	2017-03-27 06:38:37 UTC
++++ src/factory/country/Makefile.am
 @@ -1,7 +1,6 @@
  ## Process this file with automake to produce Makefile.in
  

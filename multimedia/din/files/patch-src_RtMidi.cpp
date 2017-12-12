@@ -1,4 +1,4 @@
---- src/RtMidi.cpp.orig	2017-12-06 19:45:51 UTC
+--- src/RtMidi.cpp.orig	2017-03-27 06:38:38 UTC
 +++ src/RtMidi.cpp
 @@ -3409,7 +3409,7 @@ int jackProcessIn( jack_nframes_t nframe
    JackMidiData *jData = (JackMidiData *) arg;

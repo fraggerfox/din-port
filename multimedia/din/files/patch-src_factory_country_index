@@ -1,6 +1,6 @@
---- src/factory/country/index.orig	2017-12-08 08:30:25 UTC
-+++ src/factory/country/index	
-@@ -60,7 +60,7 @@
+--- src/factory/country/index.orig	2017-03-27 06:38:37 UTC
++++ src/factory/country/index
+@@ -60,7 +60,7 @@ Czech_Republic
  French_Guiana
  Finland
  Fiji
@@ -9,7 +9,7 @@
  Micronesia
  French_Polynesia
  France
-@@ -141,7 +141,7 @@
+@@ -141,7 +141,7 @@ Palestine
  Montenegro
  Mayotte
  Norfolk_Island
@@ -18,7 +18,7 @@
  Antarctica
  Bouvet_Island
  French_Southern_and_Antarctic_Lands
-@@ -236,7 +236,7 @@
+@@ -236,7 +236,7 @@ San_Marino
  Turks_and_Caicos_Islands
  Western_Sahara
  Serbia
