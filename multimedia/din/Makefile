@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	din
-PORTVERSION=	29
+PORTVERSION=	30
 CATEGORIES=	multimedia
 MASTER_SITES=	https://archive.org/download/dinisnoise_source_code/
 
@@ -51,21 +51,12 @@ CXXFLAGS+=	-D__UNIX_JACK__
 CXXFLAGS+=	-D__UNIX_JACK__
 .endif
 
-pre-patch:
-	@${MV} ${WRKSRC}/src/factory/country/Cocos_\(Keeling\)_Islands ${WRKSRC}/src/factory/country/Cocos__Keeling__Islands
-	@${MV} ${WRKSRC}/src/factory/country/Falkland_Islands_\(Malvinas\) ${WRKSRC}/src/factory/country/Falkland_Islands__Malvinas_
-	@${MV} ${WRKSRC}/src/factory/country/Holy_See_\(Vatican_City\) ${WRKSRC}/src/factory/country/Holy_See__Vatican_City_
-	@${MV} ${WRKSRC}/src/factory/country/Iran_\(Islamic_Republic_of\) ${WRKSRC}/src/factory/country/Iran__Islamic_Republic_of_
-	@${MV} ${WRKSRC}/src/factory/country/Cote_d\'Ivoire ${WRKSRC}/src/factory/country/Cote_d_Ivoire
-	@${MV} ${WRKSRC}/src/factory/country/Korea,_Democratic_People\'s_Republic_of ${WRKSRC}/src/factory/country/Korea,_Democratic_People_s_Republic_of
-	@${MV} ${WRKSRC}/src/factory/country/Lao_People\'s_Democratic_Republic ${WRKSRC}/src/factory/country/Lao_People_s_Democratic_Republic
-
 #
 # To roll snapshot: make BOOTSTRAP=defined fetch
 #
 .if defined(BOOTSTRAP)
 FETCH_DEPENDS+=	svn:devel/subversion
-SVN_REV=	351
+SVN_REV=	356
 SVNROOT_URI=	svn://jagernot.website/home/svn/din
 
 do-fetch:
