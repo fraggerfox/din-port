@@ -56,7 +56,7 @@ CXXFLAGS+=	-D__UNIX_JACK__
 #
 .if defined(BOOTSTRAP)
 FETCH_DEPENDS+=	svn:devel/subversion
-SVN_REV=	356
+SVN_REV=	375
 SVNROOT_URI=	svn://jagernot.website/home/svn/din
 
 do-fetch:

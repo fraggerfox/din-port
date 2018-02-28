@@ -427,7 +427,6 @@ bin/din
 %%DATADIR%%/factory/set-text-color.help.tcl
 %%DATADIR%%/factory/set-var.help.tcl
 %%DATADIR%%/factory/settings.tcl
-%%DATADIR%%/factory/settings.tcl.copy
 %%DATADIR%%/factory/setup-user-dir.tcl
 %%DATADIR%%/factory/sin.lib
 %%DATADIR%%/factory/sine_levels
