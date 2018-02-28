@@ -64,8 +64,8 @@ do-fetch:
 	svn export -r ${SVN_REV} ${SVNROOT_URI}/wip ${WRKSRC}
 	cd ${WRKDIR}; tar cvfz ${DISTDIR}/${DISTNAME}.tar.gz ${DISTNAME}
 	${CHMOD} ugo+r ${DISTDIR}/${DISTNAME}.tar.gz
-#	scp -p ${DISTDIR}/${DISTNAME}.tar.gz \
-#		freefall.freebsd.org:public_distfiles/
+	scp -p ${DISTDIR}/${DISTNAME}.tar.gz \
+		freefall.freebsd.org:public_distfiles/
 .endif # defined(BOOTSTRAP)
 
 .include <bsd.port.post.mk>
