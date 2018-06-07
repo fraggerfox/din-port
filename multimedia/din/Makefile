@@ -23,6 +23,16 @@ USES=		autoreconf tcl:86+
 
 GNU_CONFIGURE=	yes
 
+OPTIONS_SINGLE=	BACKEND
+OPTIONS_SINGLE_BACKEND=JACK ALSA
+OPTIONS_DEFAULT=	JACK
+
+JACK_DESC=	Uses JACK sound server
+ALSA_DESC=	Uses ALSA sound server
+
+ALSA_CXXFLAGS+=	-D__LINUX_ALSA__
+JACK_CXXFLAGS+=	-D__UNIX_JACK__
+
 .include <bsd.port.pre.mk>
 
 CXXFLAGS+=	-I${LOCALBASE}/include \
@@ -31,25 +41,6 @@ CXXFLAGS+=	-I${LOCALBASE}/include \
 LIBS+=		-L${LOCALBASE}/lib -ltcl${TCL_SHLIB_VER} -lthr
 
 PLIST=		${PKGDIR}/pkg-plist
-
-#
-# Sound server options
-# ---
-# To use alsa: make SOUND_SERVER=alsa
-# To use jack: make SOUND_SERVER=jack
-#
-# If not set, jack is the default sound server
-#
-.if defined(SOUND_SERVER)
-. if ${SOUND_SERVER} == alsa
-CXXFLAGS+=	-D__LINUX_ALSA__
-. endif
-. if ${SOUND_SERVER} == jack
-CXXFLAGS+=	-D__UNIX_JACK__
-. endif
-.else
-CXXFLAGS+=	-D__UNIX_JACK__
-.endif
 
 #
 # To roll snapshot: make BOOTSTRAP=defined fetch
