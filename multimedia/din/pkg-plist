@@ -436,10 +436,12 @@ bin/din
 %%DATADIR%%/factory/sounding-board.osc
 %%DATADIR%%/factory/spiraler.scr
 %%DATADIR%%/factory/spiraler_cos.crv
+%%DATADIR%%/factory/spiraler_cos.ed
 %%DATADIR%%/factory/spiraler_radius.crv
 %%DATADIR%%/factory/spiraler_radius.ed
 %%DATADIR%%/factory/spiraler_radius.lib
 %%DATADIR%%/factory/spiraler_sin.crv
+%%DATADIR%%/factory/spiraler_sin.ed
 %%DATADIR%%/factory/start-end.help.tcl
 %%DATADIR%%/factory/start-end.patch.tcl
 %%DATADIR%%/factory/swav.crv
