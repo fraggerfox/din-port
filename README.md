@@ -5,7 +5,7 @@ FreeBSD [Ports][3] script for DIN Is Noise
 
 You can find the DIN Is Noise [here][1]
 
-NOTE: If you would like to compile DIN version 29, checkout the tag `din-29`
+NOTE: If you would like to compile other versions of DIN, checkout the respective tag.
 
 Installation
 ------------
