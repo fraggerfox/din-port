@@ -28,9 +28,9 @@ Credits
 
 * DIN Is Noise was written by [jag][2], who helped me a lot in making
   DIN's build to be compatible with FreeBSD.
-* Thanks to `trouble` for helping me come up with the port package, for patching
+* Thanks to `@ppaeps` for helping me come up with the port package, for patching
   up minor fixes and a machine to test the port development.
-* Thanks to `aashiks` for helping me doing build and run tests in TrueOS.
+* Thanks to `@aashiks` for helping me doing build and run tests in TrueOS.
 
 License
 -------
