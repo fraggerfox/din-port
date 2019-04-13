@@ -1,8 +1,7 @@
-# $FreeBSD: head/multimedia/din/Makefile 498698 2019-04-12 06:36:31Z jbeich $
+# $FreeBSD$
 
 PORTNAME=	din
-PORTVERSION=	39.0.1
-PORTREVISION=	1
+PORTVERSION=	41
 CATEGORIES=	multimedia
 MASTER_SITES=	https://archive.org/download/dinisnoise_source_code/
 
@@ -16,7 +15,7 @@ LIB_DEPENDS=	libboost_system.so:devel/boost-libs \
 		libasound.so:audio/alsa-lib \
 		libjack.so:audio/jack
 
-USES=		autoreconf tcl:86+ gl gnome
+USES=		autoreconf tcl:86+ gl gnome sdl
 USE_GL=		gl
 USE_SDL=	sdl
 
