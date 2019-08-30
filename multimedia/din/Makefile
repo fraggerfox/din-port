@@ -1,4 +1,4 @@
-# $FreeBSD: head/multimedia/din/Makefile 509290 2019-08-19 15:35:27Z jbeich $
+# $FreeBSD: head/multimedia/din/Makefile 510275 2019-08-30 13:34:04Z tobik $
 
 PORTNAME=	din
 PORTVERSION=	42
