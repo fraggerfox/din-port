@@ -1,8 +1,8 @@
-# $FreeBSD: head/multimedia/din/Makefile 538319 2020-06-09 15:38:22Z fox $
+# $FreeBSD: head/audio/din/Makefile 538338 2020-06-09 19:10:51Z fox $
 
 PORTNAME=	din
 PORTVERSION=	47.1
-CATEGORIES=	multimedia
+CATEGORIES=	audio
 MASTER_SITES=	https://archive.org/download/dinisnoise_source_code/
 
 MAINTAINER=	fox@FreeBSD.org

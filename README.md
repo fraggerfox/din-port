@@ -10,7 +10,7 @@ NOTE: If you would like to compile other versions of DIN, checkout the respectiv
 Installation
 ------------
 
-Copy `multimedia/din` folder to `/usr/ports` directory.
+Copy `audio/din` folder to `/usr/ports` directory.
 
 NOTE: If your ports directory is different from above, copy to the respective
 place.
@@ -20,7 +20,7 @@ Usage
 
 Once you have copied the folder, install it as you would do for any port.
 
-`$ cd /usr/ports/multimedia/din`<br>
+`$ cd /usr/ports/audio/din`<br>
 `$ make install clean`
 
 Credits
@@ -39,4 +39,4 @@ BSD 2-clause. See LICENSE.
 
 [1]: https://dinisnoise.org/
 [2]: https://dinisnoise.org/bio/
-[3]: https://www.freshports.org/multimedia/din
+[3]: https://www.freshports.org/audio/din
